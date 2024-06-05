@@ -9,7 +9,7 @@ const GifItem = ({ image }) => {
     );
 }
 
-export default GifItem;
+export {GifItem};
 
 GifItem.propTypes = {
     image: PropTypes.object.isRequired
